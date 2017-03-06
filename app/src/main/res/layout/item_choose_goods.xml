@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="35dp"
+        android:orientation="horizontal"
+        android:background="@mipmap/official_info_grid_bg">
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="序号"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5">
+
+            <CheckBox
+                android:focusable="false"
+                android:clickable="false"
+                android:id="@+id/check_box"
+                style="@style/cbStlye"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+               />
+
+        </LinearLayout>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:text="名称规格"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/unit_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="单价"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/green"/>
+    </LinearLayout>
+
+</LinearLayout>

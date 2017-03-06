@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/official_info_grid_bg"
+   >
+    <TextView
+        android:id="@+id/adapter_undercler_down_wait_gnumber"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="订单号"
+        android:textSize="12sp"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/adapter_undercler_down_wait_name"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="名称"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:lines="2"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/adapter_undercler_down_wait_money"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="金额"
+        android:textSize="12sp"
+        android:textColor="@color/green"/>
+</LinearLayout>

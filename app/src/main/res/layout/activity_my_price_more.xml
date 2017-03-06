@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/my_price_more_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:background="@mipmap/official_info_grid_bg"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+        <TextView
+            android:layout_width="0dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_weight="2.5"
+            android:text="下级类型"
+            android:textSize="11sp"
+            android:lines="2"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1"
+            android:text="下级拿货价(元)"
+            android:textSize="11sp"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/my_price_more_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:divider="#00000000"
+        android:dividerHeight="2dp"
+        android:scrollbars="none"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="50dp"/>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/green_btn_t"/>
+            <corners android:radius="180dp"/>/>
+        </shape>
+    </item>
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="#9FDC1D"/>
+            <corners android:radius="180dp"/>
+            <gradient android:startColor="#9FDC1D"
+                android:endColor="#9FDC1D"
+                android:centerColor="#9FDC1D"
+                android:type="linear"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+</selector>

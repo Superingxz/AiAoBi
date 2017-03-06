@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/indent_info_titleview"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收货人："
+            android:textColor="@color/official_yellow"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/indent_info_receive_man"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="灰灰//18826255168"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单号："
+            android:textColor="@color/official_yellow"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/indent_info_receive_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A18826255168"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收货地址："
+            android:textColor="@color/official_yellow"
+            android:textSize="12sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/indent_info_receive_adress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="广东省广州市海珠区新港东路238号世港国际A栋803"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@mipmap/official_indent_gtrid_bg"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="序号"
+                android:textSize="11sp"
+                android:textColor="@color/green"
+                android:lines="2"
+                />
+        </LinearLayout>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="名称规格"
+            android:textSize="11sp"
+            android:textColor="@color/green"
+           />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="单价"
+            android:textSize="11sp"
+            android:textColor="@color/green" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="自收"
+            android:textSize="11sp"
+            android:textColor="@color/green" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="代发"
+            android:textSize="11sp"
+            android:textColor="@color/green"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_indent_gtrid_line"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="总定货"
+            android:textSize="11sp"
+            android:textColor="@color/green" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="0.6"
+        >
+
+        <ListView
+            android:id="@+id/indent_info_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:dividerHeight="2dp"
+            android:scrollbars="none"
+            />
+        <LinearLayout
+            android:id="@+id/indent_info_tv_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/official_info_grid_bg"
+            android:gravity="center"
+            android:visibility="gone">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    暂无数据！"
+                android:drawableTop="@mipmap/nadata"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="80dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/indent_info_receive_all_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="总数量："
+                    android:textSize="10sp"
+                    android:lines="2"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/official_yellow" />
+
+                <TextView
+                    android:id="@+id/indent_info_receive_all_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:gravity="center_vertical"
+                    android:text="下级订货总金额："
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/official_yellow"  />
+
+                <TextView
+                    android:id="@+id/indent_info_receive_my_profit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="我的利润："
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="10sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/official_yellow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/indent_info_scan_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:background="@drawable/official_bt"
+                    android:textSize="12sp"
+                    android:text="现在扫描发货" />
+
+                <Button
+                    android:id="@+id/indent_info_back_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/official_bt"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_weight="1"
+                    android:text="退回修改" />
+
+                <Button
+                    android:id="@+id/indent_info_drop_shipping_btn"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:textColor="@color/white"
+                    android:background="@drawable/official_bt"
+                    android:textSize="12sp"
+                    android:text="选中产品代发" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="5dp"
+                android:text="待处理的代发订单:"
+                android:textColor="@color/official_yellow"
+                android:textStyle="bold"
+                android:textSize="12sp"/>
+            <include layout="@layout/adapter_underclerk_down_wait_bar" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_weight="1.5"
+                >
+                <ListView
+                    android:id="@+id/indent_info_wait_lv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scrollbars="none"
+                    android:divider="#00000000"
+                    android:dividerHeight="2dp"/>
+                <LinearLayout
+                    android:id="@+id/indent_info_wait_tv_msg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@mipmap/official_info_grid_bg"
+                    android:visibility="gone">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="    暂无数据！"
+                        android:textColor="@color/white"
+                        android:drawableTop="@mipmap/nadata"
+                        android:layout_gravity="center"
+                        android:visibility="visible"/>
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <!--处理下级代发订单-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="下级要求代发原因:"
+                    android:textColor="@android:color/holo_blue_light" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:layout_height="20dp"
+                    android:text="我现在扫面发货" />
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/edit_text"
+                android:lines="3"
+                android:text="1.陈慧芳由于要货数量较大，我这边没有库存所以需要上级代发 李明 2016-09-08
+ 2.李明的要求代发的 我同意  陈刚 2016-09-10"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:text="我代发的原因:"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/edit_text"
+                android:lines="3"
+                android:text="1.陈慧芳由于要货数量较大，我这边没有库存所以需要上级代发 李明 2016-09-08"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:layout_height="20dp"
+                    android:text="所选产品我同意并申请代发" />
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:text="退回" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radius_bg"
+    >
+    <TextView
+        android:id="@+id/sign_goods_details_lv_foot_tvmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="订单收货汇总（我累积业绩：   ）"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/green"/>
+    <include layout="@layout/adapter_sign_goods_details_lv_foot_bar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/green"/>
+    <xinlan.com.AiAoBi.view.DiyListView
+        android:id="@+id/sign_goods_details_lv_foot_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/green"
+        android:dividerHeight="2dp"/>
+</LinearLayout>

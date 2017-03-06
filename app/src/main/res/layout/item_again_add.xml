@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@mipmap/official_info_grid_bg"
+        >
+
+        <TextView
+            android:id="@+id/num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="vvv"
+            style="@style/greenTextviewStyle"
+            />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/gooods_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="vvvvvv"
+            style="@style/greenTextviewStyle"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/order_num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="vvvvvv"
+            style="@style/greenTextviewStyle" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/need_num"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="vvvvvv"
+            style="@style/greenTextviewStyle" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+
+
+            <xinlan.com.AiAoBi.view.JrComputeView
+                android:id="@+id/compute_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="3dp"
+                />
+            <!--  <ImageView
+                  android:id="@+id/subtract_img"
+                  android:layout_width="25dp"
+                  android:layout_height="25dp"
+                  android:layout_alignParentLeft="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginLeft="10dp"
+                  android:background="@mipmap/subtract" />
+
+
+              <EditText
+                  android:id="@+id/edit"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  android:digits="1234567890"
+                  android:text="" />
+
+              <ImageView
+                  android:id="@+id/add_img"
+                  android:layout_width="25dp"
+                  android:layout_height="25dp"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerVertical="true"
+                  android:layout_marginRight="10dp"
+                  android:background="@mipmap/add" />-->
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:textSize="10sp"
+            android:id="@+id/delete_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:gravity="center"
+            android:text="删除"
+            android:textColor="@color/colorPrimary" />
+    </LinearLayout>
+</LinearLayout>

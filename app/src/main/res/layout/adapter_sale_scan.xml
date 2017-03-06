@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/official_info_grid_bg"
+    >
+    <TextView
+        android:id="@+id/sale_scan_name"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="名称规格"
+        android:textSize="12sp"
+        android:lines="2"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+
+    <TextView
+        android:id="@+id/sale_scan_num"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="批次号"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+
+    <TextView
+        android:id="@+id/sale_scan_price"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="单价"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+    <TextView
+        android:id="@+id/sale_scan_count"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="0"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+</LinearLayout>

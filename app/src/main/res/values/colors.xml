@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE4070</color>
+    <color name="colorPrimaryDark">#fe4070</color>
+    <color name="colorAccent">#027141</color>
+    <color name="press">#e8e8e8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_black_color">#333333</color>
+    <color name="text_tips_color">#666666</color>
+    <color name="line_color">#999797</color>
+    <color name="title_color">#fe4070</color>
+    <color name="fenhong">#fad7d7</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="yellow_btn">#FFC602</color>
+    <color name="orange">#F05A28</color>
+    <color name="official_yellow">#fcd003</color>
+    <color name="mainbtn">#658ef7</color>
+    <color name="red">#ffff0000</color>
+    <color name="itemcheck">#ebebf1</color>
+    <color name="green">#027141</color>
+    <color name="green_btn">#3ac240</color>
+    <color name="green_btn_t">#91C38C</color>
+    <!--<color name="textColorPrimary">#FEFFFF</color>-->
+</resources>

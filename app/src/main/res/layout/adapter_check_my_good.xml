@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/official_info_grid_bg"
+    >
+    <TextView
+        android:id="@+id/adapter_check_my_good_num"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="序号"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+    <TextView
+        android:id="@+id/adapter_check_my_good_date"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="时间"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/adapter_check_my_good_recevice_man"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="收货人"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/adapter_check_my_good_goodsize"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="名称规格"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/adapter_check_my_good_price"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="单价"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+     />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+    <TextView
+        android:id="@+id/adapter_check_my_good_get_num"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="订货数"
+        android:textSize="12dp"
+        android:textColor="@color/green"
+        android:textStyle="bold"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color"
+        />
+
+    <TextView
+        android:id="@+id/adapter_check_my_good_send_num"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="发货数"
+        android:textSize="12dp"
+        android:textColor="@color/green"
+        android:textStyle="bold"/>
+</LinearLayout>

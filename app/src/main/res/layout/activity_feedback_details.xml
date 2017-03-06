@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/activity_feedback_details_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical"
+        android:background="@mipmap/official_info_grid_bg"
+       >
+        <TextView
+            android:id="@+id/feedback_details_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小标题"
+            android:layout_margin="5dp"
+            style="@style/whiteTextviewStyle"
+            android:drawableLeft="@mipmap/title32"/>
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/feedback_details_iv"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <ImageView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/xiangqing32"/>
+        <TextView
+            android:id="@+id/feedback_details_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="详情"
+            style="@style/whiteTextviewStyle"
+            android:layout_margin="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

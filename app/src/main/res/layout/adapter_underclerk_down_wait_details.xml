@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="40dp"
+    android:background="@mipmap/official_info_grid_bg">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/undercler_down_wait_details_number"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="序号"
+            android:textSize="12sp"
+            android:textColor="@color/green"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/line_color" />
+
+        <CheckBox
+            android:id="@+id/undercler_down_wait_details_checkbox"
+            style="@style/cbStlye"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:focusable="false"
+            android:clickable="false"
+            />
+    </LinearLayout>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/undercler_down_wait_details_name"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="名称规格"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:lines="2"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/undercler_down_wait_details_price"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="单价"
+        android:textSize="12sp"
+        android:textColor="@color/green"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/undercler_down_wait_details_sum"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="订货数"
+        android:textSize="12sp"
+        android:textColor="@color/green" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:id="@+id/undercler_down_wait_details_money"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="金额"
+        android:textSize="12sp"
+        android:textColor="@color/green" />
+</LinearLayout>

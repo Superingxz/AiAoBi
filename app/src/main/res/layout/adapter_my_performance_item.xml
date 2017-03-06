@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/official_info_grid_bg"
+    >
+
+    <TextView
+        android:id="@+id/position"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="序号"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.2"
+        android:text="订单号"
+        android:textSize="12sp"
+        android:lines="2"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+    <TextView
+        android:id="@+id/name"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="产品名称"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+
+    <TextView
+        android:id="@+id/counts"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="数量"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+    <TextView
+        android:id="@+id/money"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="金额"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@mipmap/official_indent_gtrid_line" />
+    <TextView
+        android:id="@+id/performance"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="累积"
+        android:textColor="@color/green"
+        android:textSize="12sp"
+        android:textStyle="bold"/>
+</LinearLayout>

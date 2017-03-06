@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@mipmap/official_info_grid_bg">
+
+
+    <TextView
+        android:id="@+id/ex_number"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="序号"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+       />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ex_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:text="申请时间"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ex_preson"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="申请人"
+        android:textColor="@color/red"
+        android:textStyle="bold"
+        android:textSize="12sp" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ex_leve"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text=""
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ex_link"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.2"
+        android:text="审批环节"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        android:textSize="12sp" />
+
+</LinearLayout>

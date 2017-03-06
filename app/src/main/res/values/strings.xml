@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">艾奥比</string>
+    <string name="rememberPassword">记住密码</string>
+    <string name="forgetPassword">忘记密码</string>
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="授权编号："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/accredit_code"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp"
+                         />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="授权名："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/accredit_name"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="首款余额："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="授权时间："
+                        style="@style/whiteTextviewStyle"/>
+
+                    <TextView
+                        android:id="@+id/accredit_time"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="授权级别："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/accredit_level"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="手机号："
+                        style="@style/whiteTextviewStyle"/>
+
+                    <TextView
+                        android:id="@+id/phone"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/apply_layout_idcard"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="身份证号："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/car_id"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="微信号："
+                        style="@style/whiteTextviewStyle"/>
+
+                    <TextView
+                        android:id="@+id/wx_id"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="我的上级："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/superior"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="我的推荐人："
+                        style="@style/whiteTextviewStyle" />
+
+                    <TextView
+                        android:id="@+id/referrer"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        style="@style/TextviewStyle"
+                        android:layout_height="25dp"
+                        android:layout_marginLeft="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="我的默认收货地址"
+                        style="@style/whiteTextviewStyle" />
+
+                    <ImageView
+                        android:layout_marginLeft="30dp"
+                        android:background="@mipmap/add"
+                        android:id="@+id/add_address"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/my_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    style="@style/whiteTextviewStyle"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

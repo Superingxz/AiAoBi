@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/official_info_grid_bg">
+    <TextView
+        android:id="@+id/adapter_my_price_name"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:text="下级类型"
+        android:textSize="12sp"
+        android:lines="2"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        />
+
+    <android.support.v4.widget.Space
+        android:layout_width="0.5dp"
+        android:layout_height="match_parent"
+        android:background="@color/line_color" />
+
+    <TextView
+        android:id="@+id/adapter_my_price_get"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.1"
+        android:text="下级拿货价"
+        android:textSize="12sp"
+        android:textColor="@color/green"
+        android:textStyle="bold"
+        />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/check_commit_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的代发原因："
+        android:textSize="12sp"
+        android:textColor="@color/official_yellow"
+        android:layout_marginLeft="30dp"
+        android:textStyle="bold"/>
+    <EditText
+        android:id="@+id/check_commit_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="6"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:textSize="13sp"
+        android:background="@drawable/shape_listview2"/>
+    <Button
+        android:id="@+id/check_commit_btn"
+        style="@style/buttonStyle"
+        android:layout_gravity="center_horizontal"
+        android:text="提交"/>
+</LinearLayout>

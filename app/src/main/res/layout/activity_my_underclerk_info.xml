@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/my_underclerk_info_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/my_underclerk_info_titlename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="李明—美白丸特约"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:paddingBottom="5dp"
+            android:src="@mipmap/man64" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="授权编号："
+                    style="@style/yellowTextviewStyle"/>
+
+                <TextView
+                    android:id="@+id/my_underclerk_info_num"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1"
+                    style="@style/TextviewStyle"
+                    android:text="B001" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="授权名称："
+                    style="@style/yellowTextviewStyle"/>
+
+                <TextView
+                    android:id="@+id/my_underclerk_info_name"
+                    android:layout_width="0dp"
+                    android:layout_height="20dp"
+                    android:gravity="center_vertical"
+                    android:layout_weight="1.2"
+                    style="@style/TextviewStyle"
+                    android:text="方海涛" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="授权时间："
+            style="@style/yellowTextviewStyle"/>
+
+        <TextView
+            android:id="@+id/my_underclerk_info_time"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            style="@style/TextviewStyle"
+            android:text="2015.06.01" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号码："
+            style="@style/yellowTextviewStyle"
+           />
+
+        <TextView
+            android:id="@+id/my_underclerk_info_phone"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1.2"
+            style="@style/TextviewStyle"
+            android:text="13822288821" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="授权级别："
+            style="@style/yellowTextviewStyle"/>
+
+        <TextView
+            android:id="@+id/my_underclerk_info_slevel"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            style="@style/TextviewStyle"
+            android:text="全系一级经销商" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="收货地址："
+            android:lines="2"
+            style="@style/yellowTextviewStyle"/>
+        <TextView
+            android:id="@+id/my_underclerk_info_address"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="32dp"
+            android:gravity="center_vertical"
+            android:lines="2"
+            android:text="广东省广州市海珠区新港东路68号世港国际公寓A栋803"
+            style="@style/TextviewStyle"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/my_underclerk_info_this_month"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="本月拿货订单"
+            android:gravity="center"
+            android:background="@drawable/official_bt"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/my_underclerk_info_three_month"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="最近三月拿货"
+            android:gravity="center"
+            android:background="@drawable/official_bt"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:id="@+id/my_underclerk_info_all"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:text="所有历史拿货"
+            android:background="@drawable/official_bt"
+            android:textColor="@color/white"
+            android:gravity="center"/>
+    </LinearLayout>
+    <include layout="@layout/adapter_my_underclerk_info_bar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        >
+        <ListView
+            android:id="@+id/my_underclerk_info_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:divider="#00000000"
+            android:dividerHeight="2dp"
+            android:scrollbars="none"
+            />
+        <TextView
+            android:id="@+id/my_underclerk_info_tvmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无数据!"
+            android:drawableTop="@mipmap/nadata"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp">
+        <TextView
+            android:id="@+id/my_underclerk_info_all_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总数量："
+            android:textColor="@color/official_yellow"
+            android:layout_marginRight="20dp"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/my_underclerk_info_all_monney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/official_yellow"
+            android:text="总金额："
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>

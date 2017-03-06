@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_diy_white_lv">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:id="@+id/adapter_feedback_iv"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/feedback_icon"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:focusableInTouchMode="false"
+            android:focusable="false"/>
+        <TextView
+            android:id="@+id/adapter_feedback_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="新产品上线"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:focusableInTouchMode="false"
+            android:focusable="false"
+            android:ellipsize="end"
+            android:singleLine="true"
+            />
+    </LinearLayout>
+
+</LinearLayout>

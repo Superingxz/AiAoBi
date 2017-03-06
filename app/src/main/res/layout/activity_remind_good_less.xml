@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/activity_remind_good_less_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您当前的存货明细如下："
+        android:textColor="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"/>
+    <include layout="@layout/adapter_remind_good_less_bar"/>
+    <ListView
+        android:id="@+id/activity_remind_good_less_lv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="2dp"
+        android:divider="@color/green"
+        android:dividerHeight="1dp"
+        android:scrollbars="none"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="25dp"
+        >
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/activity_remind_good_less_allmoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总金额："
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activity_remind_good_less_btn"
+        style="@style/buttonStyle"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="50dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:text="确认要货"/>
+</LinearLayout>

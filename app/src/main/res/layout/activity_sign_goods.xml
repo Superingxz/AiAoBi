@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <xinlan.com.AiAoBi.view.TitileView
+        android:id="@+id/activity_sign_goods_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+    <include layout="@layout/adapter_sign_goods_bar"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="2dp">
+        <ListView
+            android:id="@+id/sign_goods_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="#00000000"
+            android:dividerHeight="2dp"
+            android:scrollbars="none"/>
+        <TextView
+            android:id="@+id/sign_goods_tvmsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" 暂无数据!"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:drawableTop="@mipmap/nadata"/>
+    </FrameLayout>
+</LinearLayout>

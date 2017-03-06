@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/view_compute_reduceButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rectangle_shape_num_left"
+            android:text="—"
+            android:textStyle="normal"
+            android:textColor="@color/green"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:id="@+id/view_compute_EditText_layout"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/view_compute_reduceButton"
+            android:orientation="vertical" >
+
+
+            <EditText
+                android:id="@+id/view_compute_EditText"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:background="@null"
+                android:gravity="center"
+                android:inputType="number"
+                android:text="100"
+                android:textColor="@color/green"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/view_compute_addButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/view_compute_EditText_layout"
+            android:background="@drawable/rectangle_shape_num_right"
+            android:text="+"
+            android:textColor="@color/green"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+</LinearLayout>
